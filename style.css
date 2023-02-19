@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+.post{
+    background-image:url('images/ball.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.post h1{
+    font-size: 50px;
+}
+.post button:hover{
+    background-color:white;
+    color: black;
+}
+.post button{
+    font-size: 25px;
+}
+.hide{
+    display: none;
+}
+.img1:hover .hide{
+    display: block;
+    color:darkslateblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button{
+    display:none;
+}
+.img1:hover .button{
+    display: block;
+    background-color: blue;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+.shop:hover{
+    background-color: blue;
+}
+.post1{
+    background-image: url('images/petfood1.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: 4%;
+}
+.text:hover{
+background-color: blue;
+color: white;
+}
+.social i{
+font-size: 30px;
+width: 20%;
+}
+html{
+    scroll-padding:3rem;
+}
